@@ -1,5 +1,5 @@
 # EJEMPLOS
-##analog.py
+## analog.py
     Este programa lee el valor de un potenciómetro conectado al pin 36 del ESP32 usando el convertidor ADC (Análogo-Digital) y muestra los valores en pantalla de forma continua.
 
     Paso a paso:
@@ -16,7 +16,7 @@
 
     Lee el valor del potenciómetro con adc_pot.read().
 
-##leds.py
+## leds.py
     Tu programa controla cuatro pines (12, 13, 18 y 19) de un microcontrolador compatible con MicroPython (por ejemplo ESP32).
     En cada pin conecta un LED y lo enciende durante un tiempo distinto, uno tras otro.
 
@@ -30,7 +30,7 @@
 
     Configura el pin 19 como salida → enciende el LED → espera 4 segundos → lo apaga.
 
-##libmotor.py
+## libmotor.py
     El programa controla dos motores DC, cada uno con dos pines:
 
     Motor 1: pines 12 y 13
@@ -51,7 +51,7 @@
 
         Detenerse
 
-##motor.py
+## motor.py
     Este programa importa las funciones que controlan los motores desde el archivo libmotor.py y luego las ejecuta una por una, cada una durante 2 segundos.
 
     Básicamente, el carro robot:
@@ -68,7 +68,7 @@
 
     Y luego termina la ejecución.
 
-##oled.py
+## oled.py
     Este programa:
 
     Configura el bus I2C del ESP32.
@@ -87,7 +87,7 @@
 
     Actualiza la pantalla para que el texto aparezca.
 
-##rgbneopixel.py
+## rgbneopixel.py
     Este programa controla una tira (o anillo) de 3 LEDs NeoPixel conectados al pin 4, y les asigna diferentes colores:
 
     LED 1 → Blanco (255,255,255)
